@@ -1,0 +1,33 @@
+.valign {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.newsOutlet {
+    padding: 1em;
+    height: 100%;
+    border: 1px solid #000;
+}
+
+.newsTopic {
+    background-color: gray;
+    color: white;
+    padding: 1em;
+    height: 100%;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.bbc {
+    background-color: #bb1919;
+    color: #ffffff;
+}
+
+.huffpost {
+    background-color: #000;
+    color: #ffffff;
+
+}
