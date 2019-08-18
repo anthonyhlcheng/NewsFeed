@@ -29,10 +29,7 @@ class NewsFeedStory extends React.Component {
                     return (items.splice(0, 10).map(item => {
                             return (
                                 <div className="row" key={item.guid[0]['_']}>
-                                    <div className="five wide column">
-                                        <img src={item['media:thumbnail'][0].$.url} alt="thumbnail"/>
-                                    </div>
-                                    <div className="seven wide column">
+                                    <div className="twelve wide column">
                                         <h3><a href={item.link[0]} target='_blank'
                                                rel='noopener noreferrer'>{item.title[0]}</a>
                                         </h3>
